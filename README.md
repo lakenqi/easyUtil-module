@@ -1,5 +1,5 @@
 <h3>js模块插件</h3>
-		<h4>包含三种：一个是通用工具，一个是DOM操作，一个是自动滚屏的跑马灯插件，插件均支持模块化</h4>
+		<h4>包含四种：一个是通用工具，一个是DOM操作，一个是自动滚屏的跑马灯插件，以及一个ES6兼容垫片js(easyUtil.polyfill)，插件均支持模块化</h4>
 		<h4>介绍（如无特殊说明，均以普通引用入口进行介绍，模块化以自定义为主）</h4>
 		<h5>一、通用工具（easyUtil.common）普通引用通过对象名easyUtil点出如下方法</h5>
 		<ul>
@@ -94,6 +94,17 @@
 		<ul>
 			<li>
 				<p>6.easyScroll(id, speed):</p>
-				<p></p>&emsp;&emsp;传入滚动主容器Id和滚动的速度，默认100ms</span>
+				<p>&emsp;&emsp;传入滚动主容器Id和滚动的速度，默认100ms</p>
+			</li>
+		</ul>
+		<h5>四、ES6兼容垫片js(easyUtil.polyfill)，兼容一些ES6新添加的数组，对象方法，直接将文件引入，然后正常使用对应的方法即可。</h5>
+				<p>&emsp;如果已经使用babel转码，也可继续使用，不会发生冲突，且该js可以解决部分因babel未能成功转换所导致的兼容性问题，如Array.from方法，转码失败，ie会报错，可引入此js解决</p>
+		<ul>
+			<li>
+				<p>提供的兼容方法如下:</p>
+				<p>Array.from</p>
+				<p>Array.of</p>
+				<p>Array.prototype.findIndex</p>
+				<p>Array.prototype.find</p>
 			</li>
 		</ul>
