@@ -51,7 +51,7 @@
 				<p>&emsp;&emsp;canvas实现进度条功能，done为已完成数，total为总数，第三参数为可选，el为进度条插入元素位置，宽高，color进度条颜色，colorBg进度条背景颜色,callback为进度条结束时的回调函数</p>
 			</li>
 		</ul>
-		<h5>二、DOM工具（easyUtil.dom）普通引用通过对象名easyDom点出如下方法,该模块适用原生js操作</h5>
+		<h5>二、DOM工具（easyUtil.dom）普通引用通过对象名easyDOM点出如下方法,该模块适用原生js操作</h5>
 		<ul>
 			<li>
 				<p>1.ready(function(){}):</p>
