@@ -93,7 +93,7 @@
 		<h5>三、跑马灯插件（easyUtil.Scrolling）普通引用通过对象名Scrolling点出如下方法</h5>
 		<ul>
 			<li>
-				<p>6.easyScroll(id, speed):</p>
+				<p>easyScroll(id, speed):</p>
 				<p>&emsp;&emsp;传入滚动主容器Id和滚动的速度，默认100ms</p>
 			</li>
 		</ul>
