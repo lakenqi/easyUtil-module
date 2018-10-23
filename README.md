@@ -55,7 +55,7 @@
 		<ul>
 			<li>
 				<p>1.ready(function(){}):</p>
-				<p></p>&emsp;&emsp;DOM加载完毕调用函数，easyDom.ready(function(){})用于在DOM结构加载完毕后执行脚本</span>
+				<p></p>&emsp;&emsp;DOM加载完毕调用函数，easyDOM.ready(function(){})用于在DOM结构加载完毕后执行脚本</span>
 			</li>
 			<li>
 				<p>2.$(selector):</p>
