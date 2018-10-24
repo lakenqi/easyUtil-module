@@ -106,5 +106,6 @@
 				<p>Array.of</p>
 				<p>Array.prototype.findIndex</p>
 				<p>Array.prototype.find</p>
+				<p>Object.is</p>
 			</li>
 		</ul>
