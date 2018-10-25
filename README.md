@@ -50,6 +50,15 @@
 					} = {}) :</p>
 				<p>&emsp;&emsp;canvas实现进度条功能，done为已完成数，total为总数，第三参数为可选，el为进度条插入元素位置，宽高，color进度条颜色，colorBg进度条背景颜色,callback为进度条结束时的回调函数</p>
 			</li>
+			<li>
+				<p>11.switchPic(containerId, pics, {<br/>
+		&emsp;speed = 1000,<br/>
+		&emsp;width = 100,<br/>
+		&emsp;height = 100,<br/>
+		&emsp;callback = function(pic) {}<br/>
+		&emsp;} = {}) :</p>
+				<p>&emsp;&emsp;canvas实现切换图片，containerId为放置canvas容器Id，pics为图片src数组，第三参数为可选，speed为切换速度，图片显示宽高，callback为单击图片时的回调函数，参数为当前显示图片的src地址</p>
+			</li>
 		</ul>
 		<h5>二、DOM工具（easyUtil.dom）普通引用通过对象名easyDOM点出如下方法,该模块适用原生js操作</h5>
 		<ul>
@@ -107,5 +116,6 @@
 				<p>Array.prototype.findIndex</p>
 				<p>Array.prototype.find</p>
 				<p>Object.is</p>
+				<p>requestAnimationFrame/cancelAnimationFrame</p>				
 			</li>
 		</ul>
