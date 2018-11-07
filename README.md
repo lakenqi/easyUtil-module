@@ -59,6 +59,12 @@
 		&emsp;} = {}) :</p>
 				<p>&emsp;&emsp;canvas实现切换图片，containerId为放置canvas容器Id，pics为图片src数组，第三参数为可选，speed为切换速度，图片显示宽高，callback为单击图片时的回调函数，参数为当前显示图片的src地址</p>
 			</li>
+			<li>
+				<p>12.Cookie 读写或删除cookie的操作<br/>
+				&emsp;Cookie.setCookie(key,value,expire_days = 7)<br/>
+				&emsp;Cookie.getCookie(key)<br/>
+				&emsp;Cookie.delCookie(key)<br/>			
+			</li>
 		</ul>
 		<h5>二、DOM工具（easyUtil.dom）普通引用通过对象名easyDOM点出如下方法,该模块适用原生js操作</h5>
 		<ul>
