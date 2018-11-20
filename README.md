@@ -65,6 +65,10 @@
 				&emsp;Cookie.getCookie(key)<br/>
 				&emsp;Cookie.delCookie(key)<br/>			
 			</li>
+			<li>
+				<p>13.uniqueArray(arr) <br/>
+				&emsp;&emsp;数组去重方法, 返回去重后的数组<br/>		
+			</li>
 		</ul>
 		<h5>二、DOM工具（easyUtil.dom）普通引用通过对象名easyDOM点出如下方法,该模块适用原生js操作</h5>
 		<ul>
