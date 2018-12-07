@@ -116,11 +116,19 @@
 				<p>&emsp;&emsp;传入滚动主容器Id和滚动的速度，默认100ms</p>
 			</li>
 		</ul>
-		<h5>四、ES6兼容垫片js(easyUtil.polyfill)，兼容一些ES6新添加的数组，对象方法，直接将文件引入，然后正常使用对应的方法即可。</h5>
-				<p>&emsp;如果已经使用babel转码，也可继续使用，不会发生冲突，且该js可以解决部分因babel未能成功转换所导致的兼容性问题，如Array.from方法，转码失败，ie会报错，可引入此js解决</p>
+		<h5>四、兼容垫片js(easyUtil.polyfill)。直接将文件引入，然后正常使用对应的方法即可</h5>
+				<p>&emsp;1. 兼容一些ES6新添加的数组，对象方法，也提供一些数组forEach等方法对IE8的兼容</p>
+				<p>&emsp;2. 兼容IE8及以下js数组等方法的使用</p>
+				<p>&emsp;3. 与其他文件无冲突</p>
 		<ul>
 			<li>
-				<p>提供的兼容方法如下:</p>
+				<p>提供的兼容方法如下（兼容IE8及以下）:</p>
+				<p>Array.prototype.forEach</p>
+				<p>Array.prototype.map</p>
+				<p>Array.prototype.reduce</p>
+				<p>Array.prototype.filter</p>
+				<p>Array.prototype.every</p>
+				<p>Array.prototype.some</p>
 				<p>Array.from</p>
 				<p>Array.of</p>
 				<p>Array.prototype.findIndex</p>
