@@ -1,7 +1,7 @@
 <h3>js模块插件</h3>
 		<h4>包含四种：一个是通用工具，一个是DOM操作，一个是自动滚屏的跑马灯插件，以及一个ES6兼容垫片js(easyUtil.polyfill)，插件均支持模块化</h4>
 		<h4>介绍（如无特殊说明，均以普通引用入口进行介绍，模块化以自定义为主）</h4>
-		<h5>一、通用工具（easyUtil.common）普通引用通过对象名easyUtil点出如下方法</h5>
+		<h5>一、通用工具（easyUtil.common）普通引用通过符号_$或对象名easyUtil可以调取如下方法</h5>
 		<ul>
 			<li>
 				<p>1.formatDate(date, fmt):</p>
@@ -68,6 +68,14 @@
 			<li>
 				<p>13.uniqueArray(arr) <br/>
 				&emsp;&emsp;数组去重方法, 返回去重后的数组<br/>		
+			</li>
+			<li>
+				<p>14.getRootPath(flag) <br/>
+				&emsp;&emsp;获取项目根路径方法，flag为是否获取带IP和端口号的根目录，默认不填即可<br/>		
+			</li>
+			<li>
+				<p>15.getUrlParams(key) <br/>
+				&emsp;&emsp;获取url参数，key为要获取的参数名，如不填写，则返回一个所有参数的对象集合<br/>		
 			</li>
 		</ul>
 		<h5>二、DOM工具（easyUtil.dom）普通引用通过对象名easyDOM点出如下方法,该模块适用原生js操作</h5>
