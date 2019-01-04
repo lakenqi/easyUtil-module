@@ -77,6 +77,12 @@
 				<p>15.getUrlParams(key) <br/>
 				&emsp;&emsp;获取url参数，key为要获取的参数名，如不填写，则返回一个所有参数的对象集合<br/>		
 			</li>
+			<li>
+				<p>16.MouseWheel 鼠标滚轮事件封装，兼容IE9及以上主流浏览器 <br/>
+				&emsp;MouseWheel.on(callback, ele = "", flag = false):绑定事件，传入callback(event), ele为目标id选择器#+"XX"，不填写则默认监听document，flag为事件处理阶段，默认false为冒泡阶段<br/>
+				&emsp;MouseWheel.off() 取消事件<br/>
+				&emsp;MouseWheel.delta(event) 获取鼠标滚动delta值，统一为向上120，向下-120<br/>		
+			</li>
 		</ul>
 		<h5>二、DOM工具（easyUtil.dom）普通引用通过对象名easyDOM点出如下方法,该模块适用原生js操作</h5>
 		<ul>
