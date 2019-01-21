@@ -83,6 +83,12 @@
 				&emsp;MouseWheel.off() 取消事件<br/>
 				&emsp;MouseWheel.delta(event) 获取鼠标滚动delta值，统一为向上120，向下-120<br/>		
 			</li>
+			<li>
+				<p>17.sortArray(flag,sort = "asc")数组排序方法，支持普通数组和对象数组 <br/>
+				&emsp;该方法做为原生sort()方法的参数传入即可完成排序<br/>
+				&emsp;flag为对象数组需排序的属性名称，如为普通数组降序排列，则需传入null值<br/>
+				&emsp;sort为升序或降序，默认升序asc，如需降序传入desc<br/>		
+			</li>
 		</ul>
 		<h5>二、DOM工具（easyUtil.dom）普通引用通过对象名easyDOM点出如下方法,该模块适用原生js操作</h5>
 		<ul>
