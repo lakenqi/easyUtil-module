@@ -1,5 +1,5 @@
 <h3>js模块插件</h3>
-		<h4>包含四种：一个是通用工具，一个是DOM操作，一个是自动滚屏的跑马灯插件，以及一个ES6兼容垫片js(easyUtil.polyfill)，插件均支持模块化</h4>
+		<h4>有通用工具，DOM操作，自动滚屏的跑马灯，ES6兼容垫片js(easyUtil.polyfill)，自定义滚动条插件，插件均支持模块化</h4>
 		<h4>介绍（如无特殊说明，均以普通引用入口进行介绍，模块化以自定义为主）</h4>
 		<h5>一、通用工具（easyUtil.common）普通引用通过符号_$或对象名easyUtil可以调取如下方法</h5>
 		<ul>
@@ -155,5 +155,23 @@
 				<p>Array.prototype.find</p>
 				<p>Object.is</p>
 				<p>requestAnimationFrame/cancelAnimationFrame</p>				
+			</li>
+		</ul>
+			<h5>五、自定义滚动条（easyUtil.ScrollBar）普通引用通过对象名easyBar点出如下方法</h5>
+		<ul>
+			<li>
+				<p>create(id, {
+						width: ,
+						time: ,
+						colorOut: ,
+						colorIn: ',
+						speed: 
+					}):</p>
+				<p>&emsp;&emsp;id：必填，目标容器的id选择器 #id；</p>
+				<p>&emsp;&emsp;width：选填，数值类型，滚动条宽度，默认8； </p>
+				<p>&emsp;&emsp;time：选填，数值类型，滚动条隐藏时间，默认2000ms；</p>
+				<p>&emsp;&emsp;colorOut：选填，滚动条外框层颜色，默认'rgba(0,0,0,.2)'；</p>
+				<p>&emsp;&emsp;colorIn：选填，滚动条颜色，默认'grey'；</p>
+				<p>&emsp;&emsp;speed：选填，滚动速度，默认10，最大100，最小1</p>
 			</li>
 		</ul>
