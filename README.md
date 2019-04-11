@@ -1,3 +1,5 @@
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 <h3>js模块插件</h3>
 		<h4>有通用工具，DOM操作，自动滚屏的跑马灯，ES6兼容垫片js(easyUtil.polyfill)，自定义滚动条插件，插件均支持模块化</h4>
 		<h4>介绍（如无特殊说明，均以普通引用入口进行介绍，模块化以自定义为主）</h4>
